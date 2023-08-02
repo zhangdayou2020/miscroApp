@@ -7,7 +7,7 @@ export default defineConfig({
   initialState: {},
   request: {},
   layout: {
-    title: '@umijs/max',
+    title: '投行云平台',
   },
   routes: [
     {
@@ -28,6 +28,11 @@ export default defineConfig({
       name: ' CRUD 示例',
       path: '/table',
       component: './Table',
+    },
+    {
+      name: '项目中心',
+      path: '/projects',
+      component: './Projects',
     },
   ],
   npmClient: 'yarn',
